@@ -5,7 +5,7 @@
 틀린 문제는 빨간색으로 표시하며 맞힌 문제의 개수와 총 문제 개수를 문서 상단에 표시합니다.
 
 ## 프로젝트 구조
-![스크린샷 2024-05-22 161351](https://github.com/kim-nini/aws-ccp-exam-prep/assets/144877020/970def7d-4f69-4400-a898-4ad43fae4847)
+![image](https://github.com/kim-nini/aws-ccp-exam-prep/assets/144877020/663445b7-c9b8-4ad8-924c-c0d132bef47c)
 
 ## 요구 사항
 - Java 11 이상
