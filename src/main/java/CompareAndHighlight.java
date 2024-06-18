@@ -84,9 +84,8 @@ public class CompareAndHighlight {
                     if (originalAnswers.containsKey(question)) {
                         String originalAnswer = originalAnswers.get(question);
                         String modifiedAnswer = modifiedAnswers.getOrDefault(question, "N/A");
-                        // 대소문자 구분 없이 정답을 비교하고, 여러 정답을 지원합니다.
+                        // 대소문자 구분 없이
                         boolean isCorrect = compareAnswers(originalAnswer, modifiedAnswer);
-
                         if (!isCorrect) {
                             // 질문 문단과 그 다음 문단을 모두 빨간색으로 설정
                             int paraIndex = document.getParagraphs().indexOf(para);
